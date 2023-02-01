@@ -3,7 +3,7 @@ package br.com.mss.userapi.services.impl;
 import br.com.mss.userapi.domain.User;
 import br.com.mss.userapi.repositories.UserRepository;
 import br.com.mss.userapi.services.UserService;
-import br.com.mss.userapi.services.exptions.ObjectNotFoundException;
+import br.com.mss.userapi.services.exeptions.ObjectNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 
+/**
+ * The type User services.
+ */
 @RequiredArgsConstructor
 @Service
 public class UserServicesImpl implements UserService {

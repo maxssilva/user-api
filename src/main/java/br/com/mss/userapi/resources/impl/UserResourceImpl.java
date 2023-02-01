@@ -5,13 +5,15 @@ import br.com.mss.userapi.domain.User;
 import br.com.mss.userapi.resources.UserResource;
 import br.com.mss.userapi.services.UserService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * The type User resource.
+ */
 @RequiredArgsConstructor
 @RestController
 @RequestMapping(value = "/api/users")

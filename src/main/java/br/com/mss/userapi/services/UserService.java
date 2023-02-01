@@ -1,15 +1,27 @@
 package br.com.mss.userapi.services;
 
 import br.com.mss.userapi.domain.User;
-import org.springframework.http.ResponseEntity;
 
 import java.util.List;
-import java.util.Optional;
 
+/**
+ * The interface User service.
+ */
 public interface UserService {
 
-   User findById(Long id);
+    /**
+     * Find by id user.
+     *
+     * @param id the id
+     * @return the user
+     */
+    User findById(Long id);
 
+    /**
+     * Find all list.
+     *
+     * @return the list
+     */
     List<User> findAll();
 
 
