@@ -7,6 +7,9 @@ import lombok.Setter;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+/**
+ * The type Standard error.
+ */
 @AllArgsConstructor
 @Getter @Setter
 public class StandardError {
